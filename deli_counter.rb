@@ -28,4 +28,4 @@ end
     place_in_line<< "#{index item}"
    end
  puts place_in_line
-end 
+

@@ -20,14 +20,14 @@ def now_serving(katz_deli)
   if katz_deli.length==0
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently seving #{first}."
+    puts "Currently serving #{first}."
     katz_deli.shift
   end
 end
 
-   name.each_with_index do |index,  item|
+   name.each_with_index do |index, item|
    place_in_line<< "#{index item"
-end
+   end
  puts place_in_line
 end 
 end 

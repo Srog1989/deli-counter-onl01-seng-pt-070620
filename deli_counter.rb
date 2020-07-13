@@ -24,8 +24,5 @@ def now_serving(katz_deli)
     katz_deli.shift
   end
 end
-    name.each_with_index do |index, item|
-    place_in_line<< "#{index item}"
-   end
- puts place_in_line
+
 

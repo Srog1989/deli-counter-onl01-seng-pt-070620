@@ -29,4 +29,3 @@ end
    end
  puts place_in_line
 end 
-end 

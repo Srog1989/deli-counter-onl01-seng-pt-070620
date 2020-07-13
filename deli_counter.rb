@@ -5,7 +5,7 @@ def line(name)
    else
      name.each_with_index do |item, index|
      place_in_line<< "#{index+1}. #{item}"
-   end
+    end
   puts "The line is currently: #{place_in_line.join (" ")}"
  end
 end 
@@ -17,8 +17,8 @@ end
 
 def now_serving(katz_deli)
   first=katz_deli.first
-  if katz_deli.lenth==0
-    puts "There isnobody waiting to be served!"
+  if katz_deli.length==0
+    puts "There is nobody waiting to be served!"
   else
     puts "Currently seving #{first}."
     katz_deli.shift
